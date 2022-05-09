@@ -17,7 +17,7 @@ class TestReadFiles(unittest.TestCase):
             self.assertEqual(data,readfiles.read_file("test.txt"))
 
 
-def test_nonfile(self):
+    def test_nonfile(self):
         """
         Test to confirm that an exeption is raised when a wrong file is inputted
         """
